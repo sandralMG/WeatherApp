@@ -1,5 +1,5 @@
 {
-  "name": "smhi project",
+  "name": "WeatherApp",
   "version": "1.0.0",
   "description": "smhi project",
   "main": "index.js",
@@ -22,7 +22,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
-    "leaflet": "^1.4.0",
+    "leaflet": "^1.4.0"
 
   }
 }
