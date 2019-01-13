@@ -9,7 +9,7 @@ export default class Forecast {
     }
     async getForecast() {
         try {
-            const res = await axios(`http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/${this.lon}/lat/${this.lat}/data.json`);
+            const res = await axios(`https://cors-anywhere.herokuapp.com/http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/${this.lon}/lat/${this.lat}/data.json`);
             this.result = res.data.timeSeries;
             console.log(res);
         } catch (error) {
